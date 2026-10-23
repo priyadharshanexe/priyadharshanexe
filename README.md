@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="M. Priyadharshan — Python Developer · Cloud & DevOps" width="100%" />
 </p>
 
-I'm **Priyadharshan**, a Python developer from Tamil Nadu, India, building backend applications, platform integrations, and data migration tools.
+I'm **Priyadharshan**, a Python developer from India, building backend applications, platform integrations, and data migration tools.
 
 My work on **DataGrine** includes migrations for **Freshdesk, Intercom, Zendesk, and Salesforce**. I'm currently extending that work to **Outlook and Gmail**.
 
@@ -54,7 +54,7 @@ Dockerized Flask applications, a Jenkins build/test/deploy pipeline, and static 
 
 ### Education and training
 
-**B.Sc. Computer Science** — The American College, Tamil Nadu · 2023–2026
+**B.Sc. Computer Science** — The American College, India · 2023–2026
 
 - Python Full Stack Development — Elysium Academy
 - AWS Cloud with DevOps — Elysium Academy
