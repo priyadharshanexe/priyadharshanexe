@@ -15,7 +15,7 @@ My work on **DataGrine** includes migrations for **Freshdesk, Intercom, Zendesk,
 ---
 
 <p align="center">
-  <img src="assets/workspace.svg" alt="Pixel-art developer workspace with Python code, a data migration pipeline, cloud infrastructure, and a view of the night sky" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Animated pixel-art gaming room with a developer at a computer and Super Mario characters" width="100%" />
 </p>
 
 ### What I build
