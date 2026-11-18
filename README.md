@@ -1,13 +1,14 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="M. Priyadharshan — Python Developer · Cloud & DevOps" width="100%" />
+  <img src="assets/banner.svg" alt="M. Priyadharshan, Full Stack Software Engineer" width="100%" />
 </p>
 
-I'm **Priyadharshan**, a Python developer from India, building backend applications, platform integrations, and data migration tools.
+I'm **Priyadharshan**, a full stack software engineer from India. I build reliable backends, clean APIs and the integrations that keep systems talking to each other: Python on the server, React and TypeScript in the browser, and tests in between.
 
-My work on **DataGrine** (Nov 2025 – Oct 2026) included migrations for **Freshdesk, Intercom, Zendesk, and Salesforce**.
+At **DataGrine** (Nov 2025 – Oct 2026) I helped build a SaaS platform that migrates helpdesk data between **Freshdesk, Intercom, Zendesk and Salesforce**: API connectors, parallel processing that stays inside each platform's rate limits, OAuth, and the React screens customers use to run their migrations.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/priyadharshanexe/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://priyadharshanexe.github.io/priyadharshan-portfolio/">Portfolio</a> &nbsp;·&nbsp;
   <a href="mailto:priyadharshan.exe@gmail.com">Email</a> &nbsp;·&nbsp;
   <a href="https://github.com/priyadharshanexe?tab=repositories">My repositories</a>
 </p>
@@ -20,51 +21,61 @@ My work on **DataGrine** (Nov 2025 – Oct 2026) included migrations for **Fresh
 
 ### What I build
 
-- **Platform integrations and migrations** — connecting support systems and moving business data between them through DataGrine.
-- **Python applications and APIs** — backend logic, authentication, database models, and booking workflows with Django and Flask.
-- **Deployment automation** — Docker environments, Jenkins pipelines, and hands-on AWS infrastructure projects.
+- **Reliable backends and APIs**: FastAPI and Django services with queues, retries and idempotency, and the tests that prove they hold up.
+- **Integrations and migrations**: connecting helpdesk and SaaS platforms through their REST APIs, without losing data or tripping rate limits.
+- **Full stack products**: React and TypeScript interfaces on top of those APIs, from dashboards to marketplaces.
+- **Shipping and observability**: Docker, CI/CD pipelines, and metrics, alerts and traces that show what's happening in production.
 
 ### Languages and tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,django,flask,js,html,css,bootstrap,mysql,mongodb,aws,docker,kubernetes,terraform,jenkins,git,github,linux,bash,postman,vscode&amp;perline=10" alt="Python, Django, Flask, JavaScript, HTML, CSS, Bootstrap, MySQL, MongoDB, AWS, Docker, Kubernetes, Terraform, Jenkins, Git, GitHub, Linux, Bash, Postman, and VS Code" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,flask,react,ts,js,html,css,tailwind,postgres,mysql,redis,mongodb,docker,githubactions,jenkins,aws,kubernetes,terraform,grafana,prometheus,git,linux&amp;perline=12" alt="Python, FastAPI, Django, Flask, React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, PostgreSQL, MySQL, Redis, MongoDB, Docker, GitHub Actions, Jenkins, AWS, Kubernetes, Terraform, Grafana, Prometheus, Git and Linux" />
 </p>
 
-**Backend & web:** Python · Django · Flask · CherryPy · REST APIs · ORM · Authentication and sessions · JavaScript · HTML · CSS · Bootstrap · jQuery
+**Backend:** Python · FastAPI · Django · Flask · Celery · SQLAlchemy · REST APIs · OAuth 2.0 · JWT
 
-**Data:** SQL · MySQL · MongoDB · Relational schema design
+**Frontend:** React · TypeScript · JavaScript · Vite · TanStack Query · Tailwind CSS · HTML · CSS
 
-**Cloud & DevOps:** AWS EC2, S3, VPC, IAM, ELB, Auto Scaling, RDS, Route 53, EBS, EFS, Redshift · CloudFormation · CloudWatch · CloudTrail · CodePipeline · Terraform · Docker · Docker Compose · Jenkins · CI/CD · Linux · Shell scripting
+**Data:** PostgreSQL · MySQL · Redis · MongoDB · relational schema design
 
-**Additional experience:** Kubernetes hands-on labs · Flutter project work · Java basics · Git · GitHub · Postman · VS Code · Docker Desktop · phpMyAdmin · XAMPP
+**Testing:** pytest · Vitest · Playwright · property-based testing
+
+**DevOps and cloud:** Docker · Docker Compose · GitHub Actions · Jenkins · CI/CD · Linux · shell scripting · AWS (EC2, S3, IAM, VPC) · Terraform · Kubernetes (hands-on labs)
+
+**Observability:** Prometheus · Grafana · OpenTelemetry
 
 ### Selected work
 
 **DataGrine**<br>
-Helpdesk data migration platform. Built migrations for Freshdesk, Intercom, Zendesk, and Salesforce.
+Helpdesk data migration platform. Built the connectors for Freshdesk, Intercom, Zendesk and Salesforce, and tested all 16 migration directions on real accounts.
 
-**[Relay](https://github.com/priyadharshanexe/relay)**<br>
-Reliable, signed webhook delivery with a transactional outbox, retries with backoff, a dead-letter queue and replay. FastAPI, PostgreSQL, Redis and React.
+**[Relay](https://github.com/priyadharshanexe/relay)**: reliable webhook delivery<br>
+Signed webhooks with a transactional outbox, retries with backoff, a dead-letter queue and replay. An SSRF guard, rate limits and a circuit breaker protect receivers. FastAPI, PostgreSQL, Redis and React, monitored with Prometheus, Grafana and OpenTelemetry.
 
-**[HAR Triage](https://github.com/priyadharshanexe/hartriage)**<br>
-Support diagnostics for HAR files: removes session tokens before anything is stored, finds the failing request and posts a ticket-ready summary to Zendesk or Freshdesk.
+**[HAR Triage](https://github.com/priyadharshanexe/hartriage)**: support diagnostics<br>
+Removes session tokens from HAR files before anything is stored, finds the failing request and its likely cause, and posts a ticket-ready summary to Zendesk or Freshdesk.
 
-**[Motorlane](https://github.com/priyadharshanexe/motorlane)** (Vehicle Rental System)<br>
-A car and bike rental marketplace with React and Django REST: date-aware search, booking requests, owner approvals, and MySQL row locks that prevent double bookings.
+**[Motorlane](https://github.com/priyadharshanexe/motorlane)**: rental marketplace<br>
+Cars and bikes with date-aware search, booking requests, owner approvals, and MySQL row locks that prevent double bookings. React, TypeScript and Django REST.
 
 **Lab Slot Booking System**<br>
 A Flutter client and Django backend for booking lab slots.
 
-**Cloud & deployment projects**<br>
-Dockerized Flask applications, a Jenkins build/test/deploy pipeline, and static website deployment on AWS EC2.
+**Cloud and deployment projects**<br>
+Dockerized Flask applications, a Jenkins build, test and deploy pipeline, and static website deployment on AWS EC2.
+
+### Right now
+
+- Open to **full stack and backend roles**, in India or remote.
+- Sharpening data structures, algorithms and system design.
 
 ### Education and training
 
-**B.Sc. Computer Science** — The American College, India · 2023–2026
+**B.Sc. Computer Science**: The American College, India · 2023–2026
 
-- Python Full Stack Development — Elysium Academy
-- AWS Cloud with DevOps — Elysium Academy
+- Python Full Stack Development, Elysium Academy
+- AWS Cloud with DevOps, Elysium Academy
 
 ---
 
-<p align="center">Let's connect about Python development, backend engineering, cloud infrastructure, and platform integrations.</p>
+<p align="center">Curious about how things break, careful about how they're built. Let's build something reliable together.</p>
