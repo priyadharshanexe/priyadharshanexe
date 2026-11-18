@@ -4,7 +4,7 @@
 
 I'm **Priyadharshan**, a Python developer from India, building backend applications, platform integrations, and data migration tools.
 
-My work on **DataGrine** includes migrations for **Freshdesk, Intercom, Zendesk, and Salesforce**. I'm currently extending that work to **Outlook and Gmail**.
+My work on **DataGrine** (Nov 2025 – Oct 2026) included migrations for **Freshdesk, Intercom, Zendesk, and Salesforce**.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/priyadharshanexe/">LinkedIn</a> &nbsp;·&nbsp;
@@ -41,13 +41,19 @@ My work on **DataGrine** includes migrations for **Freshdesk, Intercom, Zendesk,
 ### Selected work
 
 **DataGrine**<br>
-Helpdesk data migration platform. Built migrations for Freshdesk, Intercom, Zendesk, and Salesforce; Outlook and Gmail integrations are in progress.
+Helpdesk data migration platform. Built migrations for Freshdesk, Intercom, Zendesk, and Salesforce.
 
-**Vehicle Rental System**<br>
-A Django and MySQL application with vehicle listings, booking validation, authentication, and administration across three user roles.
+**[Relay](https://github.com/priyadharshanexe/relay)**<br>
+Reliable, signed webhook delivery with a transactional outbox, retries with backoff, a dead-letter queue and replay. FastAPI, PostgreSQL, Redis and React.
+
+**[HAR Triage](https://github.com/priyadharshanexe/hartriage)**<br>
+Support diagnostics for HAR files: removes session tokens before anything is stored, finds the failing request and posts a ticket-ready summary to Zendesk or Freshdesk.
+
+**[Motorlane](https://github.com/priyadharshanexe/motorlane)** (Vehicle Rental System)<br>
+A car and bike rental marketplace with React and Django REST: date-aware search, booking requests, owner approvals, and MySQL row locks that prevent double bookings.
 
 **Lab Slot Booking System**<br>
-A Flutter client and Django backend with MySQL constraints to prevent conflicting lab bookings.
+A Flutter client and Django backend for booking lab slots.
 
 **Cloud & deployment projects**<br>
 Dockerized Flask applications, a Jenkins build/test/deploy pipeline, and static website deployment on AWS EC2.
